@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1185px) {
+
+}
+@media only screen and (max-width: 1134px) {
+  .alla{padding: 5% 5%;}
+}
+
+@media only screen and (max-width: 985px) {
+  .alla{font-size: 10px;padding:15px;}
+}
+
+@media only screen and (max-width: 1001px) {
+  .alla{font-size: 12px;padding:15px;}
+  .aobt{font-size: 14px;}
+}
+
+
+@media only screen and (max-width: 950px) {
+  .alla{font-size: 10px;padding:15px;}
+}
+
+
+@media only screen and (max-width: 880px) {
+  .aobt{font-size: 10px;}
+}
+
+@media only screen and (max-width: 865px) {
+  .sectel {width: 30%;}
+}
+
+
+@media only screen and (max-width: 750px) {
+  .sectel{width: 90%;float: left;margin-top: 300px;margin-left: 100px;}
+  .main{width: 100%;float: left;}
+  .col{height: 500px;}
+  .AreDes{width: 50%;margin-left: 100px;}
+}

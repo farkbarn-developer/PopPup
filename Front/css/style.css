@@ -1,0 +1,89 @@
+body{margin: 0;font-family: Lato-Regular;}
+a{text-decoration: none;}
+
+main{}
+
+.row,.col,.franja{width: 100%;padding: 0;}
+
+.logo{margin-bottom: 20px;padding-left: 200px;}
+.seclog{padding-top: 50px;padding-bottom: 50px;}
+
+.franjasup, .franjainf{background-color: #5d9740ff;color:#FFF; width: 100%;padding-left: 200px;padding-top: 10px;padding-bottom: 0.1px;}
+.franjainf{width: 99%;}
+.AreDes{width: 20%;margin-top: 50px;margin-left: 200px;}
+.TitAreDes{background-color: #5d9740ff;}
+.pofeonl{text-transform: uppercase;text-align: center;color:#FFF;font-weight: bold;}
+.imgdsto{margin-bottom: 20px;}
+.palc{color:black;text-transform: uppercase;text-align:center;padding-bottom: 20px;}
+.aobt, .alla{background-color: #ed7618ff; color:#FFF;font-weight: bold;text-transform: uppercase;border-radius: 20px;padding: 10%; padding-top: 10px; padding-bottom: 10px;}
+.aobt{box-shadow: 5px 4px 6px #5a5a5a;}
+.alla{font-size: 14px;padding:5% 12%;}
+.tlla{text-transform: uppercase;text-align: center;font-weight: bold;color:gray;}
+.piepag{font-size: 12px;margin-bottom:5px;}
+.central{background-color: #eaeaeaff;padding-bottom: 50px;}
+.franjafooter{margin-top: -50px;}
+
+.sectel{width: 25%;background-color: #FFF;float: right;top: -427px;left: -70px;padding: 20px;position: relative;}
+.labace{font-size: 10px;}
+.sectel .form input{margin-bottom: 10px;width: 100%;}
+.sectel .form input.inpche{width: 10%;}
+.labace{width: 100%;}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.pGra{font-size: 30px;text-align:center;font-weight: bold;margin-top:50px;}
+
+
+.titcer{width: 100%;height: 50px;background-color: #5d9740ff;/*border-radius: 10px;*/}
+
+.popupContent p{overflow: auto;height: 100px;}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+#popupBody p, #popupBody h2{
+  color: black;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody{
+    width: 46%;
+    padding: 0%;
+    /*border-radius: 10px;*/
+    border-radius: 0px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin: 20% auto;
+}
+#cerrar{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+#popupBody h2{text-align: center;}
